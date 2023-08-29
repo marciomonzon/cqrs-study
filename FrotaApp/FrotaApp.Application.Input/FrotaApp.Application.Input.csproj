@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FrotaApp.Domain\FrotaApp.Domain.csproj" />
+    <ProjectReference Include="..\FrotaApp.Infrastructure.Input\FrotaApp.Infrastructure.Input.csproj" />
+  </ItemGroup>
+
 </Project>

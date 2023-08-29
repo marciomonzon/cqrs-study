@@ -15,6 +15,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B789DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Application.Input", "FrotaApp.Application.Input\FrotaApp.Application.Input.csproj", "{86C725D8-3EA3-42EC-8945-BF4934DA5AD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Application.Output", "FrotaApp.Application.Output\FrotaApp.Application.Output.csproj", "{F8C01EBF-0951-4B88-91BF-31AC6E43238A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Infrastructure.Input", "FrotaApp.Infrastructure.Input\FrotaApp.Infrastructure.Input.csproj", "{57442F33-288D-489B-B509-BCC96ED4909D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Infrastructure.Output", "FrotaApp.Infrastructure.Output\FrotaApp.Infrastructure.Output.csproj", "{E29317D0-4AC6-488A-8909-7E5828AC4045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,18 @@ Global
 		{86C725D8-3EA3-42EC-8945-BF4934DA5AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C725D8-3EA3-42EC-8945-BF4934DA5AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C725D8-3EA3-42EC-8945-BF4934DA5AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C01EBF-0951-4B88-91BF-31AC6E43238A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C01EBF-0951-4B88-91BF-31AC6E43238A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C01EBF-0951-4B88-91BF-31AC6E43238A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C01EBF-0951-4B88-91BF-31AC6E43238A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57442F33-288D-489B-B509-BCC96ED4909D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57442F33-288D-489B-B509-BCC96ED4909D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57442F33-288D-489B-B509-BCC96ED4909D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57442F33-288D-489B-B509-BCC96ED4909D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +61,9 @@ Global
 		{4545305A-8415-4930-9F26-FF094EA59759} = {C7150457-534D-4F49-ACDA-3248767B7A03}
 		{3601566B-1D0F-487B-A7E8-92B087806645} = {B789DDD9-66C5-421A-9D24-B3234C8448FE}
 		{86C725D8-3EA3-42EC-8945-BF4934DA5AD6} = {247CADD5-619F-40DD-B6CD-F4B9C7995B80}
+		{F8C01EBF-0951-4B88-91BF-31AC6E43238A} = {247CADD5-619F-40DD-B6CD-F4B9C7995B80}
+		{57442F33-288D-489B-B509-BCC96ED4909D} = {E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}
+		{E29317D0-4AC6-488A-8909-7E5828AC4045} = {E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB549A2A-4D60-4D00-BFA4-F3A86C1649C6}
