@@ -1,6 +1,6 @@
 ﻿namespace FrotaApp.Application.Output.DTOS
 {
-    public class VechicleDTO
+    public class VehicleDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FrotaApp.Application.Output\FrotaApp.Application.Output.csproj" />
+    <ProjectReference Include="..\FrotaApp.Infrastructure.Input\FrotaApp.Infrastructure.Input.csproj" />
     <ProjectReference Include="..\FrotaApp.Infrastructure.Shared\FrotaApp.Infrastructure.Shared.csproj" />
   </ItemGroup>
 
