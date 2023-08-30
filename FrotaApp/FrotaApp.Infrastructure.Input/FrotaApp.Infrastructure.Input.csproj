@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FrotaApp.Application.Input\FrotaApp.Application.Input.csproj" />
+    <ProjectReference Include="..\FrotaApp.Domain\FrotaApp.Domain.csproj" />
+    <ProjectReference Include="..\FrotaApp.Infrastructure.Shared\FrotaApp.Infrastructure.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

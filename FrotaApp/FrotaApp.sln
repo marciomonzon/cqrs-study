@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Infrastructure.Inp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Infrastructure.Output", "FrotaApp.Infrastructure.Output\FrotaApp.Infrastructure.Output.csproj", "{E29317D0-4AC6-488A-8909-7E5828AC4045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrotaApp.Infrastructure.Shared", "FrotaApp.Infrastructure.Shared\FrotaApp.Infrastructure.Shared.csproj", "{34C93024-F6D3-4C4A-85D0-15F6817ACACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29317D0-4AC6-488A-8909-7E5828AC4045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C93024-F6D3-4C4A-85D0-15F6817ACACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C93024-F6D3-4C4A-85D0-15F6817ACACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C93024-F6D3-4C4A-85D0-15F6817ACACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C93024-F6D3-4C4A-85D0-15F6817ACACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{F8C01EBF-0951-4B88-91BF-31AC6E43238A} = {247CADD5-619F-40DD-B6CD-F4B9C7995B80}
 		{57442F33-288D-489B-B509-BCC96ED4909D} = {E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}
 		{E29317D0-4AC6-488A-8909-7E5828AC4045} = {E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}
+		{34C93024-F6D3-4C4A-85D0-15F6817ACACE} = {E76959A4-CBEA-4F8E-A6A0-5766DD7BD8D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB549A2A-4D60-4D00-BFA4-F3A86C1649C6}
