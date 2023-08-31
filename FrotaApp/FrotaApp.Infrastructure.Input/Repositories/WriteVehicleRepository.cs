@@ -3,16 +3,11 @@ using FrotaApp.Application.Input.Repositories;
 using FrotaApp.Domain.Entities;
 using FrotaApp.Infrastructure.Input.Factory;
 using FrotaApp.Infrastructure.Input.Queries;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FrotaApp.Infrastructure.Input.Repositories
 {
-    internal class WriteVehicleRepository : IWriteVehicleRepository
+    public class WriteVehicleRepository : IWriteVehicleRepository
     {
         private readonly IDbConnection _connection;
 
